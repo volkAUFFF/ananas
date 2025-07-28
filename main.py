@@ -89,9 +89,6 @@ if not BOT_TOKEN:
     logging.error("❌ ОШИБКА: Не указан BOT_TOKEN в переменных окружения!")
     sys.exit(1)
 
-if not SEND_API_KEY:
-    logging.error("❌ ОШИБКА: Не указан SEND_API_KEY в переменных окружения!")
-    sys.exit(1)
   
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN))
 dp = Dispatcher()
