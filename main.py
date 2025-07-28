@@ -94,7 +94,7 @@ bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.MARKDOW
 dp = Dispatcher()
 
 
-
+ADMIN_ID = 767154085
 
 async def on_startup():
     """Действия при запуске бота"""
